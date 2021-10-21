@@ -19,11 +19,9 @@ class dog extends animal{
         this.branch = branch;
     }
 }
-
 // Instancia
 let dog1 = new dog("Perro",3,"Negro","doberman");
 dog1.printInfo();
-
 
 // El polimorfismo es cuando se especifica aun metod con que caracteristicas acceder  
 // en Java script no puedo tener un objeto con el mismo nombre de la clase

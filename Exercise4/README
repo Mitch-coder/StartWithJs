@@ -1,0 +1,13 @@
+// Problema A
+/*Implementar las nuevas funciones*/
+// Problema B
+/* -Que la funcion nos devuelva:
+    Profesor asignado
+    Nombre de los alumnos
+   -Funcion que nos indique en cuantas clases esta cofla
+   - Nombre de esas clases y de sus profesores
+*/
+// Problema c
+ - Preguntarle en que materia se quiere inscribir 
+ - si hay 20 inscritos, negarle la inscripcion 
+ - si hay menos de 20 agregarlo a la lista
