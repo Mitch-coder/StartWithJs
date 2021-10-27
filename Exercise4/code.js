@@ -21,20 +21,20 @@ class calculator{
     static sqrt(num1){
         return Math.sqrt(parseInt(num1));
     }
+    static sqrt3(num1){
+        return Math.cbrt(parseInt(num1));
+    }
 }
-
 // Preguntamos que operacion desea realizar
-var operation = parseInt(prompt(`Que operacion desea realizar?<br>1-Suma 2-Resta 3-Multiplicacion 4-Division 5-pow2 6-Raiz2`));
-if(operation==5||operation==6)
+var operation = parseInt(prompt(`Que operacion desea realizar?<br>1-Suma 2-Resta 3-Multiplicacion 4-Division 5-pow2 6-Raiz2 7-Raiz3`));
+if(operation==5||operation==6||operation==7)
 {
     var number1 =parseInt(prompt("Ingrese su numero"));
 }else{
     number1 = prompt("Ingrese su primer numero");
     var number2 = prompt("Ingrese su segundo numero");
 }
-
 var result;
-
 // Efectuamos la operacion que haya seleccionado
 switch (operation) {
     case 1:
@@ -54,6 +54,10 @@ switch (operation) {
         break;
     case 6:
         result = calculator.sqrt(number1);
+        break;
+    case 7:
+        result = calculator.sqrt3(number1);
+        break
     default:
         break;
 }
